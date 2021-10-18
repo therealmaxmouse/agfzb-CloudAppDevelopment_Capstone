@@ -48,6 +48,117 @@
     </nav>
 
     <!--Add a dealer table here -->
+            <div class="container mb-5">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h3 class="display-2">Best Cars</h3>
+                </div>
+            </div>
+            <table id="table" class="table table-striped table-dark rounded-top" data-filter-control="true">
+                <thead class=>
+                    <tr>
+                        <th scope="col" data-field="id">ID</th>
+                        <th scope="col" data-field="dealer-name">Dealer Name</th>
+                        <th scope="col" data-field="city">City</th>
+                        <th scope="col" data-field="address">Address</th>
+                        <th scope="col" data-field="zip">Zip</th>
+                        <th scope="col" data-field="state" data-filter-control="select" class="px-2 pb-2">State</th>
+                    </tr>
+                </thead>
+                <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Holdlamis Car Dealership</td>
+                            <td>El Paso</td>
+                            <td>3 Nova Court</td>
+                            <td>88563</td>
+                            <td>TX</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Temp Car Dealership</td>
+                            <td>Minneapolis</td>
+                            <td>6337 Butternut Crossing</td>
+                            <td>55402</td>
+                            <td>MN</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Sub-Ex Car Dealership</td>
+                            <td>Birmingham</td>
+                            <td>9477 Twin Pines Center</td>
+                            <td>35285</td>
+                            <td>AL</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">4</th>
+                            <td>Solarbreeze Car Dealership</td>
+                            <td>Dallas</td>
+                            <td>85800 Hazelcrest Circle</td>
+                            <td>75241</td>
+                            <td>TX</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">5</th>
+                            <td>Regrant Car Dealership</td>
+                            <td>Maryland</td>
+                            <td>93 Golf Course Pass</td>
+                            <td>21203</td>
+                            <td>MD</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">6</th>
+                            <td>Stronghold Car Dealership</td>
+                            <td>Wilkes Barre</td>
+                            <td>2 Burrows Hill</td>
+                            <td>18763</td>
+                            <td>PA</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">7</th>
+                            <td>Job Car Dealership</td>
+                            <td>Pueblo</td>
+                            <td>9 Cambridge Park</td>
+                            <td>81010</td>
+                            <td>CO</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">8</th>
+                            <td>Bytecard Car Dealership</td>
+                            <td>Topeka</td>
+                            <td>288 Larry Place</td>
+                            <td>66642</td>
+                            <td>KS</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">9</th>
+                            <td>Job Car Dealership</td>
+                            <td>Dallas</td>
+                            <td>253 Hanson Junction</td>
+                            <td>75216</td>
+                            <td>TX</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">10</th>
+                            <td>Alphazap Car Dealership</td>
+                            <td>Washington</td>
+                            <td>108 Memorial Pass</td>
+                            <td>20005</td>
+                            <td>DC</td>
+                        </tr>                                                
+                </tbody>
+
+        </div>
+
+        <footer class="fixed-bottom footer mt-2 bg-white" >
+           
+        </footer>
+    </body>
+<script>
+  $(function() {
+    $('#table').bootstrapTable()
+  })
+</script>
 
     </body>
 
